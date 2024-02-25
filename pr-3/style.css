@@ -97,7 +97,7 @@ h2 {
     .container-3 {
         display: grid;
         margin-top: 33px;
-        width: 181%;
+        width: 180%;
         height: 200px;
         align-items: end;
         justify-items: center;
