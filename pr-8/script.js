@@ -23,7 +23,7 @@
             }
         }
 
-        return { evenLengthNames: evenLengthNames, oddLengthNames: oddLengthNames };
+        return { evenLengthNames, oddLengthNames };
     }
     let selectedNamesByLength = selectNamesByLength(names);
     console.log("Імена з парною кількістю літер:", selectedNamesByLength.evenLengthNames);
