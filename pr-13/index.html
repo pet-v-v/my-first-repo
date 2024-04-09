@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PR-13</title>
+</head>
+
+<body>
+    <h1>Pixel Hunt</h1>
+    <div id="menu">
+        <label for="difficulty">Choose difficulty</label>
+        <select name="difficulty" id="difficulty">
+            <option disabled selected>--Please choose an option--</option>
+            <option value="lazy">Lazy</option>
+            <option value="normal">Normal</option>
+            <option value="catch">Catch me if you can</option>
+        </select>
+        <label for="color">Choose color</label>
+        <select name="color" id="color">
+            <option disabled selected>--Please choose an option--</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+        <button id="start">Start</button>
+    </div>
+    <div id="game">
+        <div>
+            <label for="Score"> Score:</label>
+            <span name="Score" id="Score">0</span>
+        </div>
+        <div>
+            <label for="time">Time left for click:</label>
+            <span name="time" id="time"></span>
+        </div>
+    </div>
+    <div id="player"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
