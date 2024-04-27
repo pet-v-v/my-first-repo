@@ -141,7 +141,7 @@ header {
     width: 100%;
     text-align: center;
     box-sizing: border-box;
-    height: calc(100vh - 150px);
+    height: 500px;
 }
 
 .container-row {
@@ -333,7 +333,7 @@ white {
     }
 
     .big-container {
-        height: calc(100vh - 200px);
+        height: 400px;
     }
 
     .sub-container {
@@ -369,7 +369,7 @@ white {
     }
 
     .big-container {
-        height: calc(100vh - 250px);
+        height: 300px;
     }
 
     .container-row {
@@ -383,7 +383,7 @@ white {
     .sub-container {
         width: 100%;
         margin-bottom: 20px;
-        height: calc(100vh - 250px);
+        height: 300px;
     }
 
     .wrapper {
@@ -456,7 +456,7 @@ white {
     }
 
     .big-container {
-        height: calc(100vh - 250px);
+        height: 300px;
     }
 
     .container-row {
@@ -470,7 +470,7 @@ white {
     .sub-container {
         width: 100%;
         margin-bottom: 20px;
-        height: calc(100vh - 250px);
+        height: 300px;
     }
 
     .wrapper {
