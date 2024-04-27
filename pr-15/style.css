@@ -164,6 +164,14 @@ header {
     overflow: hidden;
 }
 
+.sub-container:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.sub-container:last-child {
+    border: 2px solid rgb(0, 82, 102);
+}
+
 .sub-container iframe {
     width: 100%;
     height: 100%;
