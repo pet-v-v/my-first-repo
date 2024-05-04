@@ -254,6 +254,10 @@ white {
     .category-title {
         margin: 0 30px 20px;
     }
+
+    .row {
+        width: 1200px;
+    }
 }
 
 /* Large devices  */
