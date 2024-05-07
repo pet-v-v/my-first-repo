@@ -16,5 +16,6 @@
 - [Практична робота №13](https://pet-v-v.github.io/my-first-repo/pr-13/)
 - [Практична робота №15](https://pet-v-v.github.io/my-first-repo/pr-15/)
 - [Практична робота №16](https://pet-v-v.github.io/my-first-repo/pr-16/)
+- [Практична робота №17](https://pet-v-v.github.io/my-first-repo/pr-17/)
 - [Контрольна робота №1](https://pet-v-v.github.io/my-first-repo/kr-1/)
 - [Контрольна робота №2](https://pet-v-v.github.io/my-first-repo/kr-2/)
