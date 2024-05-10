@@ -88,3 +88,4 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("sin-button").addEventListener("click", (e) => handleButtonClick(e, 'sin'));
     document.getElementById("tan-button").addEventListener("click", (e) => handleButtonClick(e, 'tan'));
 });
+
