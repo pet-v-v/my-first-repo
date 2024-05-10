@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
             case 'log':
                 if (operand1 <= 0) {
-                    resultHeading.textContent = "Result: Operand must be greater than 0 for log";
+                    resultHeading.textContent = "Result: Operand 1 is less or equal to 0";
                     return;
                 } else {
                     result = Math.log(operand1);
