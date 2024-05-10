@@ -66,6 +66,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 break;
             case 'log':
+                if (op1Input.value.trim() === '') {
+                    resultHeading.textContent = "Operand is missing";
+                    return;
+                }
                 if (operand1 <= 0) {
                     resultHeading.textContent = "Result: Operand 1 is less or equal to 0";
                     return;
@@ -78,6 +82,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 break;
             case 'sin':
+                if (op1Input.value.trim() === '') {
+                    resultHeading.textContent = "Operand is missing";
+                    return;
+                }
                 operand1 = operand1 * Math.PI / 180;
                 result = Math.sin(operand1);
                 fetchData('json/sin.json', function (data) {
@@ -86,6 +94,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
                 break;
             case 'tan':
+                if (op1Input.value.trim() === '') {
+                    resultHeading.textContent = "Operand is missing";
+                    return;
+                }
                 operand1 = operand1 * Math.PI / 180;
                 result = Math.tan(operand1);
                 fetchData('json/tan.json', function (data) {
