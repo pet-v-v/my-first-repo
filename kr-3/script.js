@@ -71,7 +71,7 @@ document.getElementById("log-button").addEventListener("click", function () {
     if (operand1 <= 0) {
         resultHeading.textContent = "Result: Operand 1 is less or equal to 0";
     } else {
-        fetchData('JSON/log.json', function (data) {
+        fetchData('json/log.json', function (data) {
             resultHeading.textContent = "Result: " + data.name;
             logInfoDiv.innerHTML = `<img src="${data.image_name}" alt="${data.name}"><br>Description: ${data.description}`;
         });
@@ -81,7 +81,7 @@ document.getElementById("log-button").addEventListener("click", function () {
 document.getElementById("sin-button").addEventListener("click", function () {
     let degrees = parseFloat(op1Input.value);
     let radians = degrees * (Math.PI / 180);
-    fetchData('JSON/sin.json', function (data) {
+    fetchData('json/sin.json', function (data) {
         resultHeading.textContent = "Result: " + data.name;
         sinInfoDiv.innerHTML = `<img src="${data.image_name}" alt="${data.name}"><br>Description: ${data.description}`;
     });
@@ -90,7 +90,7 @@ document.getElementById("sin-button").addEventListener("click", function () {
 document.getElementById("tan-button").addEventListener("click", function () {
     let degrees = parseFloat(op1Input.value);
     let radians = degrees * (Math.PI / 180);
-    fetchData('JSON/tan.json', function (data) {
+    fetchData('json/tan.json', function (data) {
         resultHeading.textContent = "Result: " + data.name;
         tanInfoDiv.innerHTML = `<img src="${data.image_name}" alt="${data.name}"><br>Description: ${data.description}`;
     });
