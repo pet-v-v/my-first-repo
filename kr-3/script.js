@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     result = Math.log(operand1);
                     fetchData('json/log.json', function (data) {
                         resultHeading.textContent = "Result: " + result;
-                        logInfoDiv.innerHTML = `<strong>${data.name}</strong><br><img src="${data.image_name}" alt="${data.name}"><br>Description: ${data.description}`;
+                        logInfoDiv.innerHTML = `<strong>${data.name}</strong><br><img src="${data.image_name}" alt="${data.name}"><br> ${data.description}`;
                     });
                 }
                 break;
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 result = Math.sin(operand1);
                 fetchData('json/sin.json', function (data) {
                     resultHeading.textContent = "Result: " + result;
-                    sinInfoDiv.innerHTML = `<strong>${data.name}</strong><br><img src="${data.image_name}" alt="${data.name}"><br>Description: ${data.description}`;
+                    sinInfoDiv.innerHTML = `<strong>${data.name}</strong><br><img src="${data.image_name}" alt="${data.name}"><br> ${data.description}`;
                 });
                 break;
             case 'tan':
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 result = Math.tan(operand1);
                 fetchData('json/tan.json', function (data) {
                     resultHeading.textContent = "Result: " + result;
-                    tanInfoDiv.innerHTML = `<strong>${data.name}</strong><br><img src="${data.image_name}" alt="${data.name}"><br>Description: ${data.description}`;
+                    tanInfoDiv.innerHTML = `<strong>${data.name}</strong><br><img src="${data.image_name}" alt="${data.name}"><br> ${data.description}`;
                 });
                 break;
         }
